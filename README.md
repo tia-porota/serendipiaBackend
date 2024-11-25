@@ -1,7 +1,7 @@
 # Serendipia Backend
 
 ### Instalation Guide
-Important note: make sure you are in the main directory (/serendipiaBackend). This project runs on Node.js
+Important note: make sure you are in the main directory (./serendipiaBackend). This project runs on Node.js using mainly Express and MongoDB
 
 Step 1.
 
@@ -23,7 +23,7 @@ Run the backend
 `node app.js`
 
 
-You should be ready to run Serendipia locally, make sure you change the backend connection string in ./backInfo.js on the main Serendipia Project
+You should be ready to run Serendipia locally, make sure you change the backend connection string in ./backInfo.js on the main [Serendipia Project](https://github.com/tia-porota/serendipia)
 
 
 
