@@ -1,0 +1,99 @@
+GET http://localhost:4000/users/
+
+###
+
+GET http://localhost:4000/users/67030e3fe3927a0634e42257
+
+###
+
+POST http://localhost:4000/users/
+Content-Type: application/json
+mode: no-cors
+
+
+{
+    "user":"ugiigi"
+}
+
+###
+
+DELETE http://localhost:4000/users/
+
+
+###
+
+POST http://localhost:4000/users/login/
+Content-Type: application/json
+
+
+{
+    "user":"papa",
+    "pass": "papa"
+}
+
+
+###
+
+PUT http://localhost:4000/users/
+Content-Type: application/json
+
+{
+    "id":"67030e3fe3927a0634e42257",
+    "groupCode":"baba"
+
+}
+
+###
+
+POST http://localhost:4000/msgs
+Content-Type: application/json
+
+{
+
+    "text":"q rico o",
+    "sender":"say gex"
+
+}
+
+###
+
+PUT http://localhost:4000/groups/msgs/67030847e3927a0634e42254
+Content-Type: application/json
+
+{
+
+    "text":"qricooo o",
+    "sender":"say gex"
+
+}
+
+###
+
+
+POST http://localhost:4000/public/
+Content-Type: application/json
+
+{
+    "name":"Amistades 2"
+}
+
+###
+
+PUT http://localhost:4000/public/msgs/6734f08466d269dac161fbd9
+Content-Type: application/json
+
+{
+    "sender":"juanjo",
+    "text":"holagente"
+}
+
+###
+GET http://localhost:4000/public/
+
+###
+
+GET http://localhost:4000/groups/
+
+###
+
+DELETE http://localhost:4000/groups

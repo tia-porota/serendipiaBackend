@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>create user</h1>
+    <form action="http://localhost:4000/users" method="post">
+      <label for="idName">Nombre: </label>
+      <input type="text" name="name" id="idName" />
+      <br>
+      <label for="idPass">Pass: </label>
+      <input type="password" name="password" id="idPass">
+      <br>
+      <label for="idEmail">Email: </label>
+      <input type="email" name="email" id="idEmail" value="a@a.com"/>
+      <br>
+
+      <button type="submit" name="submit">Enviar</button>
+    </form>
+  </body>
+</html>
